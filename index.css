@@ -1,0 +1,78 @@
+html {
+  background-color: #212121;
+}
+
+body {
+  margin: 0 0 0 0;
+  width: 100%;
+  height: 100%;
+  background-image:url("https://cdn.discordapp.com/attachments/983197937519718460/986872967625576468/ezgif.com-gif-maker.gif");
+  background-size:cover;
+  background-repeat:repeat;
+}
+#Chess_Background{
+  width: 100%;
+  height: 10%;
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+}
+
+button {
+  border: 2px solid black;
+}
+
+button:hover {
+  opacity: 90%;
+}
+
+button:active {
+  opacity: 100%;
+}
+
+#reset {
+
+}
+
+#grid {
+  display: flex;
+  margin: auto;
+  /* margin-bottom: -400px; */
+  height: 800px;
+  width: 800px;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 0px 0px;
+  text-align: center;
+  border: 4px solid black;
+  background-color: #000;
+}
+
+#popup {
+  display: flex;
+  position:relative;
+  height: 115px;
+  width: 300px;
+  top:-460px;
+  left:42%;
+  border: 2px solid black;
+  background-color: #FFF;
+}
+
+.grid-item {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  background-color: #878787;
+  opacity: 80%;
+  font-weight: bold;
+}
+
+.popup_item {
+  width: 100px;
+  height: 100%;
+  text-align: center;
+  background-color: #878787;
+  opacity: 80%;
+  font-weight: bold;
+}
